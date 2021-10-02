@@ -8,10 +8,10 @@
 
 input[type=password]
 {
-    background-color: lime;
+    background-color: #00FF00;
 }
 button{
-    background-color: blueviolet;
+    background-color: #8A2BE2;
     transition:1.5s;
 }
 
@@ -22,11 +22,11 @@ button:hover
     
 }
 textarea{
-    background-color: cornflowerblue;
+    background-color: #6495ED;
     transition: 3s;
 }
 textarea:hover{
-    background-color: cornsilk;
+    background-color: #FFF8DC;
 }
 #container{
     
