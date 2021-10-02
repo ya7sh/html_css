@@ -1,0 +1,57 @@
+
+
+#password
+{
+    color: darkorange;
+
+    }
+
+input[type=password]
+{
+    background-color: lime;
+}
+button{
+    background-color: blueviolet;
+    transition:1.5s;
+}
+
+button:hover
+{
+    background-color: rgb(255, 0, 13);
+    border-radius: 5em;
+    
+}
+textarea{
+    background-color: cornflowerblue;
+    transition: 3s;
+}
+textarea:hover{
+    background-color: cornsilk;
+}
+#container{
+    
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0,auto;
+    border:50px, solid #003049;
+    border-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+h1:nth-of-type(2){
+    text-align: center;
+}
+#container div{
+    width: 200px;
+    height: 200px;
+    flex-grow: 1;
+}
+@media screen {min-width:1100px;
+    h1{
+        background-color: #003049;
+    }
+    
+}

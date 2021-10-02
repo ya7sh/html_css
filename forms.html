@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms </title>
+    <link rel="stylesheet" href="style.css.css">
+</head>
+
+<body>
+    <h1>
+        forms demo
+    </h1>
+    <button>I am a button</button>
+    <form action="/yash">
+        <p>
+            <label for="password">Enter password</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="username"> Enter username</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Enter your search here" name="q">
+        <button type="submit">Search</button>
+
+    </form>
+    <h3>More inputs</h3>
+    <form action="\yash">
+        <input type="checkbox" name="agree_tos" id="agree" checked>
+        <label for="agree">I agree to it</label>
+        <p>
+        <h4>Choose the correct one</h4>
+        <label for="A">A</label>
+        <input type="radio" name="mcq" id="A" value="A is selected">
+        <label for="B">B</label>
+        <input type="radio" name="mcq" id="B" value="B is selected">
+        <label for="C">C</label>
+        <input type="radio" name="mcq" id="C" value="C is selected">
+
+        </p>
+        <p>
+            <label for="size"> Select your shirt size</label>
+            <select name="shirt" id="size">
+
+                <option value="">size</option>
+                <option value="xs">xs</option>
+                <option value="s">s</option>
+                <option value="m">m</option>
+                <option value="l">l</option>
+            </select>
+        </p>
+        <p>
+            <label for="req">Any special requests?</label>
+            <br>
+            <textarea name="request" id="req" cols="20" rows="20" placeholder="Type here"></textarea>
+        </p>
+
+        <button>Submit</button>
+    </form>
+
+    <h2>Validations demo</h2>
+    <form action="\dummy">
+        <label for="first">Enter your name</label>
+        <input type="text" id="first" name="fname" required>
+        <button>Submit</button>
+    </form>
+    <br>
+    <br>
+    <h1>Let's try flexbox</h1>
+    <section id="container">
+        <div style="background-color: #42bff5;"></div>
+        <div style="background-color: #425df5;"></div>
+        <div style="background-color: #a142f5;"></div>
+        <div style="background-color: #bcf542;"></div>
+    </section>
+</body>
+
+</html>
